@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="56dp"
+            android:background="@drawable/roundedtextfield"
+            android:elevation="5dp"
+            android:hint="Card holder"
+            android:minHeight="60dp"
+            android:paddingStart="10dp" />
+
+        <EditText
+            android:id="@+id/etCardNumber"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etFullName"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="56dp"
+            android:background="@drawable/roundedtextfield"
+            android:drawableRight="@drawable/visa"
+            android:elevation="5dp"
+            android:hint="Card Number"
+            android:minHeight="60dp"
+            android:paddingStart="10dp" />
+
+        <EditText
+            android:id="@+id/etExpiryDate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etCardNumber"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedtextfield"
+            android:elevation="5dp"
+            android:hint="Expiry date"
+            android:minHeight="60dp"
+            android:paddingStart="10dp" />
+
+        <EditText
+            android:id="@+id/etCVC"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etCardNumber"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="56dp"
+            android:background="@drawable/roundedtextfield"
+            android:elevation="5dp"
+            android:hint="CVC"
+            android:minHeight="60dp"
+            android:paddingStart="10dp"
+            android:password="true" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/roundedtextfield"
+            android:elevation="5dp"
+            android:hint="Enter email"
+            android:minHeight="60dp"
+            android:paddingStart="10dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etEmail"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/roundedtextfield"
+            android:drawableRight="@android:drawable/ic_lock_lock"
+            android:elevation="5dp"
+            android:hint="Password"
+            android:minHeight="60dp"
+            android:paddingStart="10dp"
+            android:password="true" />
+
+        <EditText
+            android:id="@+id/etConfirmPassword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etPassword"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="50dp"
+            android:background="@drawable/roundedtextfield"
+            android:drawableRight="@android:drawable/ic_lock_lock"
+            android:elevation="5dp"
+            android:hint="Confirm password"
+            android:minHeight="60dp"
+            android:paddingStart="10dp"
+            android:password="true" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/saveDetails"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etConfirmPassword"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="#7F01E2"
+            android:text="complete"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etExpiryDate"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="40dp"
+            android:text="Set up your account"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="31dp"
+            app:srcCompat="@drawable/paymentoption" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="127dp"
+            android:layout_height="36dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="40dp"
+            android:text="Payment"
+            android:textSize="25dp" />
+
+
+    </RelativeLayout>
+</ScrollView>

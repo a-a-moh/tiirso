@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "39564053921",
+    "project_id": "caawi-d7069",
+    "storage_bucket": "caawi-d7069.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39564053921:android:54e3cb80b4fefb1e534fe0",
+        "android_client_info": {
+          "package_name": "com.sithackathon.caawi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39564053921-m7oa4hebiaohujm5cgrv2dsfhafajfov.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sithackathon.caawi",
+            "certificate_hash": "26e4f9f02b0d20eae4da141499d6d0061c14aa4a"
+          }
+        },
+        {
+          "client_id": "39564053921-u0iohiah177ocpng3j6okhone5c8jsuk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwjp-PwWGFIecKxQ9feJkRSABLr_aqp4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39564053921-u0iohiah177ocpng3j6okhone5c8jsuk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
